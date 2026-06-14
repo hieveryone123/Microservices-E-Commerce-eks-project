@@ -6,7 +6,7 @@ provider "aws" {
 # IAM Role for EKS Cluster
 # ----------------------------
 resource "aws_iam_role" "master" {
-  name = "yaswanth-eks-master1"
+  name = "yaswanth-eks-master2"
 
   assume_role_policy = jsonencode({
     Version = "2012-10-17",

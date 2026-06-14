@@ -113,9 +113,9 @@ resource "aws_iam_instance_profile" "worker" {
 # VPC and Subnet Data Sources
 # ----------------------------
 data "aws_vpc" "main" {
-  tags = {
-    Name = "Jumphost-vpc"
-  }
+ 
+    id = "vpc-0aa18b80a88b825e0"
+  
 }
 
 data "aws_subnet" "subnet-1" {
